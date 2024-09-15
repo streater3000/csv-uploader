@@ -1,0 +1,19 @@
+{
+    "name": "duzz/duzz-csv-uploader",
+    "description": "CSV uploader plugin for Duzz Custom Portal",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Streater Kelley"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "DuzzCSV\\": "src/"
+        }
+    }
+}
